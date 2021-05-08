@@ -57,6 +57,7 @@ class Home extends Component {
 
         <section id="right">
           <nav className="login_nav">
+          <span> This little app is NOT authenticated. </span> 
             <div>
               <span>Phone, email, or username</span>
               <input />
@@ -64,7 +65,7 @@ class Home extends Component {
             <div>
               <span>Password</span>
               <input />
-              <Link to="/">Forgot password?</Link>
+              <Link to="/">Forgot password? </Link>
             </div>
             <Link className="loginButton" to="/LoggedIn">
               Log In
